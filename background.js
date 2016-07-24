@@ -9,11 +9,11 @@ var addShipitButton = function() {
     return;
   }
 
-  var $shipitButton = $('<button id="thumbs-up-form-button" class="btn"><span class="octicon octicon-squirrel"></span></button>');
+  var $shipitButton = $('<button id="thumbs-up-form-button" class="btn"><span class="octicon octicon-squirrel">Ship it & Comment</span></button>');
   var $commentInput = $commentActions.closest("form").find("textarea");
 
   $shipitButton.on("click", function() {
-    $commentInput.val(":+1:");
+    $commentInput.val("Ship it");
     return true;
   });
 
