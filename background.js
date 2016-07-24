@@ -19,6 +19,4 @@ var addShipitButton = function() {
 
   $shipitButton.insertAfter($commentActions.find("button:first"));
 };
-
 $(document).ready(addShipitButton);
-$(document).mousemove(addShipitButton);
